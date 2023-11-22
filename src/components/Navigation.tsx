@@ -2,8 +2,8 @@ import React from "react";
 import { IoHomeOutline, IoCodeSlash } from "react-icons/io5";
 import { SiAboutdotme } from "react-icons/si";
 import { MdOutlineCall } from "react-icons/md";
-import { pageSliceActions } from "@/pages/store/slice";
-import { useAppDispatch, useAppSelector } from "@/pages/store/store";
+import { pageSliceActions } from "@/store/slice";
+import { useAppDispatch, useAppSelector } from "@/store/store";
 
 const Navigation = () => {
   const dispatch = useAppDispatch();

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Inter, Fira_Code } from "next/font/google";
-import { useAppSelector, useAppDispatch } from "./store/store";
-import { pageSliceActions } from "./store/slice";
+import { useAppSelector, useAppDispatch } from "../store/store";
+import { pageSliceActions } from "../store/slice";
 import LandingHome from "./Landing/Home";
 import Projects from "./Projects";
 import About from "./About";
