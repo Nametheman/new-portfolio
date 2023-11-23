@@ -25,14 +25,16 @@ export default function Home() {
   };
   return (
     <div className={`${inter.className} ${firaCode.variable} relative`}>
-      <div className="px-7 py-6 flex items-center justify-between">
+      <div className="px-7 h-[70px] flex items-center justify-between">
         <Logo />
         {/* <Image src={menuOpen} alt="menu" onClick={handleRoute} /> */}
       </div>
-      {page === "landing" && <LandingHome />}
-      {page === "projects" && <Projects />}
-      {page === "about" && <About />}
-      {page === "contact" && <Contact />}
+      <div className="h-[calc(100vh-70px)] pb-[110px]">
+        {page === "landing" && <LandingHome />}
+        {page === "projects" && <Projects />}
+        {page === "about" && <About />}
+        {page === "contact" && <Contact />}
+      </div>
 
       <Navigation />
     </div>

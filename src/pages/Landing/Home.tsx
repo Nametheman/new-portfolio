@@ -33,7 +33,7 @@ const LandingHome = () => {
   const totalQuotes = quotes.length;
   const randomQuote = Math.floor(Math.random() * totalQuotes);
   return (
-    <div className="py-[.3rem] px-6  h-[80vh] relative">
+    <div className="py-[.3rem] px-6  h-[80vh] relative min-w-screen max-w-screen overflow-hidden">
       <div className="md:flex md:items-center md:gap-[3rem]">
         <article className="md:flex-[0.8]">
           <p className="text-[1.8em] font-sans font-semibold text-white leading-snug md:text-[2.2rem]">
@@ -69,6 +69,9 @@ const LandingHome = () => {
         <Time />
       </div>
       <ParticlesComponent />
+      <span className="absolute bottom-0 right-[-20px]">
+        <Image src={rectangle} alt="rectangle" className="w-[80px]" />
+      </span>
     </div>
   );
 };
