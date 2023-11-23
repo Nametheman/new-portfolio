@@ -49,7 +49,7 @@ const LandingHome = () => {
           </button>
         </article>
 
-        <div className="relative mt-5 w-[full] flex justify-center flex-col items-center border-4 border-white">
+        <div className="relative mt-5 w-[full] flex justify-center flex-col items-center ">
           <Image src={human} alt="human" className="w-[150px] md:w-[350px]" />
           <div className="border w-[300px] mx-auto p-4 flex gap-2 items-center md:w-[375px]">
             <div className="bg-primary h-[25px] w-[25px] min-h-[25px] min-w-[25px] max-h-[25px] max-w-[25px]"></div>
