@@ -33,14 +33,14 @@ const LandingHome = () => {
   const totalQuotes = quotes.length;
   const randomQuote = Math.floor(Math.random() * totalQuotes);
   return (
-    <div className="py-[.3rem] px-6  h-[80vh] relative min-w-screen max-w-screen overflow-hidden">
+    <div className="py-[.3rem] h-full px-6 relative min-w-screen max-w-screen overflow-hidden">
       <div className="md:flex md:items-center md:gap-[3rem]">
         <article className="md:flex-[0.8]">
-          <p className="text-[1.8em] font-sans font-semibold text-white leading-snug md:text-[2.2rem]">
+          <p className="text-[1.5em] font-sans font-semibold text-white leading-snug md:text-[2.2rem]">
             Emmanuel is a <span className="text-primary">front-end web</span>{" "}
             and <span className="text-primary">mobile developer</span>
           </p>
-          <p className="mt-[1rem] text-[#ABB2BF] font-sans text-[.8rem] md:mt-[2rem] md:text-[1rem]">
+          <p className="mt-[1rem] text-[#ABB2BF] font-sans text-[.7rem] md:mt-[2rem] md:text-[1rem]">
             From creating web interfaces to developing mobile apps: Powering
             Digital Dreams with Frontend and Mobile Wizardry
           </p>
@@ -53,7 +53,7 @@ const LandingHome = () => {
           <Image src={human} alt="human" className="w-[150px] md:w-[350px]" />
           <div className="border w-[300px] mx-auto p-4 flex gap-2 items-center md:w-[375px]">
             <div className="bg-primary h-[25px] w-[25px] min-h-[25px] min-w-[25px] max-h-[25px] max-w-[25px]"></div>
-            <p className="text-white font-sans text-[.8rem] transition duration-[0.5s]">
+            <p className="text-white font-sans text-[.7rem] transition duration-[0.5s]">
               {`${quotes[quoteIndex]}`}
             </p>
           </div>
@@ -69,8 +69,8 @@ const LandingHome = () => {
         <Time />
       </div>
       <ParticlesComponent />
-      <span className="absolute bottom-0 right-[-20px]">
-        <Image src={rectangle} alt="rectangle" className="w-[80px]" />
+      <span className="absolute bottom-[3rem] right-[-20px]">
+        <Image src={rectangle} alt="rectangle" className="w-[50px]" />
       </span>
     </div>
   );

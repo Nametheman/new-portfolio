@@ -29,7 +29,7 @@ export default function Home() {
         <Logo />
         {/* <Image src={menuOpen} alt="menu" onClick={handleRoute} /> */}
       </div>
-      <div className="h-[calc(100vh-70px)] pb-[110px]">
+      <div className="h-[calc(100vh-70px)] pb-[70px]">
         {page === "landing" && <LandingHome />}
         {page === "projects" && <Projects />}
         {page === "about" && <About />}
