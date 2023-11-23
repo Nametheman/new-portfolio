@@ -27,7 +27,7 @@ const config: Config = {
         primary: "#C778DD",
         secondary: "#44475a",
         tertiary: "#282a36",
-        navbar: "#5a5d61",
+        navbar: "#44475a",
       },
     },
   },
