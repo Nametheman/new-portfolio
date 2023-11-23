@@ -36,25 +36,25 @@ const LandingHome = () => {
     <div className="py-[.3rem] h-full px-6 relative min-w-screen max-w-screen overflow-hidden">
       <div className="md:flex md:items-center md:gap-[3rem]">
         <article className="md:flex-[0.8]">
-          <p className="text-[1.5em] font-sans font-semibold text-white leading-snug md:text-[2.2rem]">
+          <p className="text-[4vh] font-sans font-semibold text-white leading-snug md:text-[2.2rem]">
             Emmanuel is a <span className="text-primary">front-end web</span>{" "}
             and <span className="text-primary">mobile developer</span>
           </p>
-          <p className="mt-[1rem] text-[#ABB2BF] font-sans text-[.7rem] md:mt-[2rem] md:text-[1rem]">
+          <p className="mt-[.5rem] text-[#ABB2BF] font-sans text-[2vh] md:mt-[2rem] md:text-[1rem]">
             From creating web interfaces to developing mobile apps: Powering
             Digital Dreams with Frontend and Mobile Wizardry
           </p>
-          <button className="mt-[1rem] border-primary border text-white px-[2rem] py-[0.5rem] font-sans text-[0.8rem] md:mt-[2rem] md:text-[1rem]">
+          <button className="mt-[1rem] border-primary border text-white px-[1rem] py-[0.5rem] font-sans text-[0.8rem] md:mt-[2rem] md:text-[1rem]">
             Contact Me!!
           </button>
         </article>
 
         <div className="relative mt-5 w-[full] flex justify-center flex-col items-center ">
           <Image src={human} alt="human" className="w-[150px] md:w-[350px]" />
-          <div className="border w-[300px] mx-auto p-4 flex gap-2 items-center md:w-[375px]">
-            <div className="bg-primary h-[25px] w-[25px] min-h-[25px] min-w-[25px] max-h-[25px] max-w-[25px]"></div>
-            <p className="text-white font-sans text-[.7rem] transition duration-[0.5s]">
-              {`${quotes[quoteIndex]}`}
+          <div className="border w-[300px] mx-auto p-2 md:p-4 flex gap-2 items-center md:w-[375px]">
+            <div className="bg-primary h-[10px] w-[10px] min-h-[10px] min-w-[10px] max-h-[10px] max-w-[10px] md:h-[20px] md:w-[20px] md:min-h-[20px] md:min-w-[20px] md:max-h-[20px] md:max-w-[20px]"></div>
+            <p className="text-white text-center font-sans text-[1.5vh] transition duration-[0.5s]">
+              {quotes[quoteIndex]}
             </p>
           </div>
           <span className="absolute left-[20%] z-[-1] top-[20%]">
@@ -65,7 +65,7 @@ const LandingHome = () => {
           </span>
         </div>
       </div>
-      <div className="absolute bottom-[3rem] left-[-10px]">
+      <div className="absolute bottom-[2.2rem] left-[-10px]">
         <Time />
       </div>
       <ParticlesComponent />
