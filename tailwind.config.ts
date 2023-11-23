@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     screens: {
       sm: "480px",
+      md1: "481px",
       md: "980px",
       lg: "1024px",
       xl: "1280px",
@@ -28,6 +29,7 @@ const config: Config = {
         secondary: "#44475a",
         tertiary: "#282a36",
         navbar: "#44475a",
+        grey: "#ABB2BF",
       },
     },
   },

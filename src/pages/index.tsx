@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Navigation from "@/components/Navigation";
 import Logo from "@/components/Logo";
 import menuOpen from "../assets/icons/menuOpen.svg";
+import Socials from "@/components/Socials";
 
 const inter = Inter({ subsets: ["latin"] });
 const firaCode = Fira_Code({
@@ -25,11 +26,12 @@ export default function Home() {
   };
   return (
     <div className={`${inter.className} ${firaCode.variable} relative`}>
-      <div className="px-7 h-[70px] flex items-center justify-between">
+      <div className="px-7 h-[70px] flex items-center justify-between relative">
         <Logo />
+        <Socials />
         {/* <Image src={menuOpen} alt="menu" onClick={handleRoute} /> */}
       </div>
-      <div className="h-[calc(100vh-70px)] pb-[70px]">
+      <div className="h-[calc(100vh-70px)] pb-[70px] md:h-[100vh]">
         {page === "landing" && <LandingHome />}
         {page === "projects" && <Projects />}
         {page === "about" && <About />}
