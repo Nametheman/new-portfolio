@@ -1,14 +1,42 @@
 export const quotes = [
-  "Believe you can and you're halfway there.",
-  "Don't watch the clock; do what it does. Keep going.",
-  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-  "The only way to do great work is to love what you do.",
-  "Believe in yourself and all that you are.",
-  "The future belongs to those who believe in the beauty of their dreams.",
-  "Don't be pushed around by the fears in your mind.",
-  "The best time to plant a tree was 20 years ago.",
-  "The second best time is now.",
-  "The harder you work for something, the greater you'll feel when you achieve it.",
-  "The only limit to our realization of tomorrow will be our doubts of today.",
-  "Be led by the dreams in your heart.",
+  {
+    quote: "Be yourself; everyone else is already taken.",
+    author: "Oscar Wilde",
+  },
+  {
+    quote:
+      "In three words I can sum up everything I've learned about life: it goes on.",
+    author: "Robert Frost",
+  },
+  {
+    quote: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+  },
+  {
+    quote: "Life is what happens when you're busy making other plans.",
+    author: "John Lennon",
+  },
+  { quote: "The best revenge is massive success.", author: "Frank Sinatra" },
+  {
+    quote:
+      "The future belongs to those who believe in the beauty of their dreams.",
+    author: "Eleanor Roosevelt",
+  },
+  {
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    author: "Winston Churchill",
+  },
+  {
+    quote: "The only thing we have to fear is fear itself.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+  },
+  {
+    quote: "It does not matter how slowly you go as long as you do not stop.",
+    author: "Confucius",
+  },
 ];

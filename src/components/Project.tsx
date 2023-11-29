@@ -40,10 +40,14 @@ const Project = ({
       </div>
       <div className="flex items-center gap-4 absolute bottom-4 left-3">
         <a href={livesite} target="_blank">
-          <Button text="Live <~>" width="110px" color="#C778DD" />
+          <button className="mt-[1rem] border-primary border text-white px-[1rem] py-[0.5rem] font-sans text-[0.8rem] md:mt-[2rem] md:text-[1rem]">
+            {"Live <~>"}{" "}
+          </button>
         </a>
         <a href={code} target={code === "#" ? "_self" : "_blank"}>
-          <Button text="Code </>" width="110px" color="#ABB2BF" />
+          <button className="mt-[1rem] border-grey border text-grey px-[1rem] py-[0.5rem] font-sans text-[0.8rem] md:mt-[2rem] md:text-[1rem]">
+            {"Code </>"}{" "}
+          </button>
         </a>
       </div>
     </div>

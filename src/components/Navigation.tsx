@@ -10,7 +10,7 @@ const Navigation = () => {
   const { page } = useAppSelector((state) => state.page);
 
   return (
-    <nav className="fixed z-10 bottom-[-2px] bg-navbar w-full flex justify-center h-[70px] items-center md:right-[-35px] md:w-[70px] md:h-[500px] md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:top-1/2 rounded-t-[20px] md:rounded-t-none md:rounded-l-[20px]">
+    <nav className="fixed z-10 bottom-[-2px] bg-navbar w-full flex justify-center h-[70px] items-center md:right-[-35px] md:w-[70px] md:h-[400px] md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:top-1/2 rounded-t-[20px] md:rounded-r-none md:rounded-l-[20px]">
       <ul className="flex w-[87.5%] justify-evenly relative md:flex-col md:items-center md:gap-[1rem]">
         <li
           className={

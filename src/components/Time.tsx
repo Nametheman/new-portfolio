@@ -12,7 +12,7 @@ const Time = () => {
   };
   setInterval(UpdateTime);
   return (
-    <div className="flex items-center justify-center border border-white px-4 py-1 rounded-lg">
+    <div className="flex items-center justify-center border border-white px-4 py-1 rounded-lg w-[160px]">
       <p className="text-1xl md:text-3xl font-sans font-extrabold text-white">
         {ctime}
       </p>
