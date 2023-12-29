@@ -10,7 +10,7 @@ body {
 nav ul li.active a div {
   transform: translateY(-35px);
   /* color: #5a5d61; */
-  background-color: #222327;
+  background-color: #272322;
   width: 70px;
   height: 70px;
   border-radius: 50%;

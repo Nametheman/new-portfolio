@@ -42,12 +42,13 @@ export const ParticlesComponent = () => {
         },
         particles: {
           color: {
-            value: "#ffffff43",
+            value: "#fff",
           },
+
           links: {
             color: "#ffffff1a",
             distance: 100,
-            enable: true,
+            enable: false,
             opacity: 0.4,
             width: 1,
           },
@@ -69,16 +70,16 @@ export const ParticlesComponent = () => {
               enable: true,
               area: 2000,
             },
-            value: 80,
+            value: 150,
           },
           opacity: {
             value: 0.5,
           },
           shape: {
-            type: "square",
+            type: "circle",
           },
           size: {
-            value: { min: 3, max: 5 },
+            value: { min: 3, max: 3 },
           },
         },
         detectRetina: true,

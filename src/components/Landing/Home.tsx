@@ -30,7 +30,7 @@ const LandingHome = () => {
           </p>
           <p className="mt-[.5rem] text-[#ABB2BF] font-sans text-[2vh] md:mt-[2rem] md:text-[1rem]">
             From creating web interfaces to developing mobile apps: Powering
-            Digital Dreams with Frontend and Mobile Wizardry
+            Digital Dreams with Tech Wizardry
           </p>
           <button
             className="mt-[1rem] border-primary border text-white px-[1rem] py-[0.5rem] font-sans text-[0.8rem] md:mt-[2rem] md:text-[1rem]"
@@ -39,6 +39,7 @@ const LandingHome = () => {
             Contact Me!!
           </button>
         </article>
+        <ParticlesComponent />
 
         <div className="relative mt-5 w-[full] flex justify-center flex-col items-center ">
           <Image src={human} alt="human" className="w-[150px] md:w-[500px]" />
@@ -58,7 +59,6 @@ const LandingHome = () => {
         </div>
       </div>
 
-      <ParticlesComponent />
       <span className="fixed right-[-40px] bottom-[3rem] lg:bottom-[3rem] lg:right-[-20px] z-[-1]">
         <Image src={rectangle} alt="rectangle" className="w-[50px]" />
       </span>

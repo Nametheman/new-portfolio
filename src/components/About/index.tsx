@@ -3,6 +3,7 @@ import Image from "next/image";
 import rectangle from "../../assets/images/rectangle.png";
 import boy from "@/assets/images/boy.svg";
 import dots from "../../assets/images/dots.svg";
+import { ParticlesComponent } from "../Particles";
 
 const About = () => {
   return (
@@ -42,6 +43,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <ParticlesComponent />
     </div>
   );
 };
